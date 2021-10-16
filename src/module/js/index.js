@@ -1,15 +1,16 @@
 import $ from './library/jquery-tabs.js'
 
 // console.log($('.main-menu>div'));
-$('.nav-top-right').on({
+$('.nav-top-right>ul>li').on({
     mouseenter: function() {
         let div = this[0];
         // console.log($(`${this[0]}:has(a)`));
-        $(`${div}:has(a)`).css('color', 'red');
-        $('.main-menu>div').addClass('displayed');
+        // $(`${div}:has(a)`).css('color', 'red');
+        console.log(this);
+        $(this).children('.main-menu').children('.menu-content').addClass('displayed');
     },
     mouseleave: function() {
-        $('.main-menu>div').removeClass('displayed');
+        $(this).children('.main-menu').children('.menu-content').removeClass('displayed');
     }
 });
 $('.tabs').tabs({

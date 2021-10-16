@@ -54,11 +54,13 @@ header .footer-top {
 .nav-top .nav-top-right li > div .menu-content {
   position: absolute;
   top: 30px;
-  left: 0;
+  left: -11px;
   padding: 10px 0;
-  width: 150%;
+  width: 180%;
   background-color: white;
   display: none;
+  border: 0.5px solid #eee;
+  border-top: 0;
 }
 .nav-top .nav-top-right li > div .menu-content > a {
   display: block;

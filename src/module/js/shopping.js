@@ -98,7 +98,7 @@ if (shop) {
         console.log($('.selected-all>input').prop('checked'));
         $('.shopping').on('click', '.selected-all>input', function() {
             let resAll = $('.selected-all>input').prop('checked');
-            let resOne = $('.selected-one>input').prop('checked');
+            // let resOne = $('.selected-one>input').prop('checked');
             $('.selected-one>input').prop("checked", resAll);
             let sum = 0;
             let arr = $('.shop-price').text().split('￥')
@@ -116,7 +116,7 @@ if (shop) {
 
         //单件商品选择金额发生变化的功能
         $('.shopping').on('click', '.selected-one>input', function() {
-            let resOne = $(this).prop('checked');
+            // let resOne = $(this).prop('checked');
             let arr = Array.from($('.selected-one>input'));
 
             $('.selected-all>input').prop('checked', arr.every(ele => $(ele).prop('checked'))); //判断商品是否全部选择从而是否选择全选按钮
