@@ -1,0 +1,88 @@
+@import url(./header.less);
+@import url(./footer.less);
+@import url(./reset.less);
+
+@media (min-width: 1200px) {
+    html body .container {
+        width: 1190px !important;
+        padding: 0;
+    }
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+//注册页main样式
+main {
+    .res {
+        width: 500px;
+        height: 300px;
+        margin: 100px auto;
+
+        form {
+            >div {
+                margin-bottom: 50px;
+            }
+        }
+
+        span {
+            display: inline-block;
+            width: 90px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        input {
+            width: 300px;
+            height: 30px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            margin: 0 auto;
+            width: 396px;
+            height: 50px;
+            border: 0;
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+            background-color: #ff0036;
+        }
+    }
+}
+
+
+//页面底部其他样式
+
+footer {
+    a {
+        text-decoration: none;
+    }
+
+
+
+    .footer-bottom {
+        background-color: white;
+        border: 0;
+
+
+
+        .footer-content {
+            >p {
+                >a {
+                    color: black;
+                }
+
+                a:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

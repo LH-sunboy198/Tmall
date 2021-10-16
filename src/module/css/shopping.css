@@ -1,0 +1,453 @@
+@charset 'utf-8';
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 16px;
+  font-family: '微软雅黑';
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 16px;
+  font-weight: normal;
+}
+b,
+strong {
+  font-weight: normal;
+}
+i,
+em {
+  font-style: normal;
+}
+a,
+u,
+del,
+ins {
+  text-decoration: none;
+}
+img {
+  border: 0;
+  display: block;
+}
+input,
+fieldset {
+  outline: none;
+  border: 0;
+}
+.clearfix:after {
+  content: '.';
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  display: block;
+  visibility: hidden;
+}
+.clear_fix {
+  zoom: 1;
+}
+a:hover {
+  text-decoration: none;
+}
+header .footer-top {
+  padding: 0;
+  background-color: #ce0b22;
+}
+.nav-top {
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  color: #999999;
+  background-color: #f2f2f2;
+}
+.nav-top a {
+  text-decoration: none !important;
+}
+.nav-top .nav-top-left a {
+  margin-left: 10px;
+  color: #999999;
+}
+.nav-top .nav-top-right ul {
+  margin-bottom: 0;
+}
+.nav-top .nav-top-right li {
+  position: relative;
+  padding: 0 10px;
+  float: left;
+}
+.nav-top .nav-top-right li:hover {
+  background-color: white;
+}
+.nav-top .nav-top-right li > div {
+  position: relative;
+}
+.nav-top .nav-top-right li > div .menu {
+  font-size: 12px;
+  color: #999999;
+  vertical-align: middle;
+}
+.nav-top .nav-top-right li > div .menu i {
+  position: relative;
+  top: -2px;
+  color: red;
+  vertical-align: middle;
+}
+.nav-top .nav-top-right li > div .menu > b {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 47%;
+  right: -6px;
+  border: 3px solid transparent;
+  border-top-color: #999999;
+}
+.nav-top .nav-top-right li > div .menu-content {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  padding: 10px 0;
+  width: 150%;
+  background-color: white;
+  display: none;
+}
+.nav-top .nav-top-right li > div .menu-content > a {
+  display: block;
+  color: #999999;
+  line-height: 15px;
+  font-size: 12px;
+}
+.nav-top .nav-top-right .nav-mydivid {
+  padding: 0 5px;
+  border-right: 1px solid #999999;
+  width: 1px;
+  height: 14px;
+  margin-top: 8px;
+}
+.nav-top .nav-top-right .nav-mylist .menu .iconfont {
+  font-size: 12px;
+  position: relative;
+  top: 1px;
+}
+footer .footer-top {
+  padding-top: 22px;
+  width: 1190px;
+  background: url(https://img.alicdn.com/tfs/TB1dl28RXXXXXbzaFXXXXXXXXXX-136-50.png) 52px 100% no-repeat;
+  background-size: 60px;
+  border-top: 1px solid #ededed;
+}
+footer .footer-top .footer-list {
+  padding-left: 52px;
+}
+footer .footer-top .footer-list > dt {
+  width: 186px;
+  color: #646464;
+  line-height: 30px;
+}
+footer .footer-top .footer-list > dd {
+  width: 186px;
+  height: 20px;
+}
+footer .footer-top .footer-list > dd > a {
+  font-size: 12px;
+  color: #8b8b8b;
+}
+footer .footer-top .footer-list > dd > a > img {
+  width: 105px;
+}
+footer .footer-bottom {
+  border-top: 1px solid red;
+  background-color: #000000;
+  padding-bottom: 20px;
+}
+footer .footer-bottom .footer-content {
+  width: 1190px;
+}
+footer .footer-bottom .footer-content > p {
+  margin: 0;
+}
+footer .footer-bottom .footer-content a {
+  color: white;
+  line-height: 25px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+footer .footer-bottom .footer-content .tmall-about {
+  padding: 5px 0;
+}
+footer .footer-bottom .footer-content .tmall-link {
+  padding: 5px 0;
+  font-size: 12px;
+  color: white;
+}
+footer .footer-bottom .footer-content .relation {
+  color: #a4a4a4;
+  font-size: 12px;
+}
+footer .footer-bottom .footer-content .relation a,
+footer .footer-bottom .footer-content .relation span {
+  color: #a4a4a4;
+  font-size: 12px;
+  margin-right: 65px;
+}
+footer .footer-bottom .footer-content .relation a > img,
+footer .footer-bottom .footer-content .relation span > img {
+  display: inline-block;
+}
+footer .footer-bottom .footer-content .relation b {
+  font-weight: 400;
+  color: #686868;
+}
+footer .footer-bottom .footer-content .relation p {
+  padding: 10px 0 5px 0;
+  margin: 0;
+}
+footer .footer-bottom .footer-content .relation p > a {
+  margin-right: 5px;
+}
+footer .footer-bottom .footer-content .relation p > a img {
+  height: 30px;
+  display: inline-block;
+}
+@media (min-width: 1200px) {
+  html body .container {
+    width: 1190px !important;
+    padding: 0;
+  }
+}
+header .nav-top .nav-top-left > a > em,
+header .nav-top .nav-top-right > ul > li > div > a > em {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-left: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 3px;
+  transform: rotate(-45deg);
+}
+header .nav-top .nav-top-right > ul > li:hover em {
+  transform: rotate(135deg);
+}
+main .search {
+  padding: 20px 0 40px;
+}
+main .search .search-left {
+  float: left;
+}
+main .search .search-left > a > img {
+  width: 181px;
+}
+main .search .search-right {
+  float: right;
+  width: 510px;
+  border: 4px solid #ff5500;
+  line-height: 30px;
+}
+main .search .search-right span,
+main .search .search-right form {
+  float: left;
+}
+main .search .search-right > span {
+  padding: 0 8px 0 10px;
+  background-color: #f5f5f5;
+  height: 30px;
+  font-size: 12px;
+}
+main .search .search-right > span > em {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin-left: 15px;
+  border-left: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 3px;
+  transform: rotate(-45deg);
+}
+main .search .search-right input {
+  width: 300px;
+}
+main .search .search-right p {
+  text-align: center;
+  margin: 0;
+  float: right;
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background-color: #ff5500;
+}
+main .shopping .tabs-shop .choose {
+  border-bottom-color: #ff5500;
+}
+main .shopping .tabs-shop ul > li {
+  float: left;
+  font-weight: 600;
+  font-size: 16px;
+  color: #3c3c3c;
+  padding: 0 15px 15px;
+  border-bottom: 4px solid transparent;
+}
+main .shopping .tabs-shop ul > li > em {
+  color: #ff5900;
+}
+main .shopping .tabs-shop ul > li:nth-of-type(2) {
+  padding: 0;
+}
+main .shopping .tabs-shop ul > li:nth-of-type(2) span {
+  padding-left: 15px;
+  border-left: 1px solid #aaa;
+}
+main .shopping .tabs-shop ul > li:nth-of-type(2) em {
+  padding-right: 15px;
+  border-right: 1px solid #aaa;
+}
+main .shopping .tabs-shop .account {
+  float: right;
+}
+main .shopping .tabs-shop .account p,
+main .shopping .tabs-shop .account span,
+main .shopping .tabs-shop .account a {
+  float: left;
+  font-size: 12px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+}
+main .shopping .tabs-shop .account > p {
+  margin-right: 10px;
+}
+main .shopping .tabs-shop .account > span {
+  display: inline-block;
+  width: 60px;
+  color: #ff4400;
+  font-weight: 600;
+}
+main .shopping .tabs-shop .account > a {
+  margin-left: 5px;
+  padding: 0 10px;
+  color: white;
+  background-color: #aaaaaa;
+}
+main .shopping .tabs-shop > dl dt,
+main .shopping .tabs-shop > dl dd:nth-of-type(1) {
+  float: left;
+  height: 50px;
+  line-height: 50px;
+}
+main .shopping .tabs-shop > dl > dt > input {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  border: 2px solid #aaa;
+}
+main .shopping .tabs-shop > dl > dt > em {
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 15px;
+}
+main .shopping .tabs-shop > dl > dd:nth-of-type(1) {
+  margin-left: 20px;
+}
+main .shopping .tabs-shop > dl > dd:nth-of-type(2) {
+  float: right;
+}
+main .shopping .tabs-shop > dl > dd:nth-of-type(2) > span {
+  margin-left: 30px;
+}
+main .shopping .tabs-shop > div {
+  height: 130px;
+  background-color: #fcfcfc;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+main .shopping .tabs-shop > div p {
+  margin: 0;
+}
+main .shopping .tabs-shop > div > dl {
+  padding-top: 20px;
+}
+main .shopping .tabs-shop > div > dl dt,
+main .shopping .tabs-shop > div > dl dd {
+  float: left;
+}
+main .shopping .tabs-shop > div > dl > dt {
+  width: 50px;
+  padding: 0 20px;
+}
+main .shopping .tabs-shop > div > dl > dt > input {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  border: 2px solid #aaa;
+}
+main .shopping .tabs-shop > div > dl .shop-img > a > img {
+  width: 80px;
+}
+main .shopping .tabs-shop > div > dl .shop-title {
+  width: 226px;
+  font-size: 12px;
+  margin-left: 20px;
+}
+main .shopping .tabs-shop > div > dl .shop-title > a {
+  text-decoration: none;
+  color: black;
+}
+main .shopping .tabs-shop > div > dl .shop-type {
+  width: 210px;
+  margin-left: 30px;
+  font-size: 12px;
+  color: #aaa;
+}
+main .shopping .tabs-shop > div > dl .shop-one-price {
+  margin-left: 40px;
+  width: 130px;
+}
+main .shopping .tabs-shop > div > dl .shop-num {
+  width: 47px;
+}
+main .shopping .tabs-shop > div > dl .shop-num > input {
+  width: 45px;
+  border: 1px solid black;
+}
+main .shopping .tabs-shop > div > dl .shop-price {
+  width: 140px;
+  color: #ff5500;
+  margin-left: 70px;
+}
+main .shopping .tabs-shop > div > dl .shop-contr {
+  font-size: 12px;
+  cursor: pointer;
+}
+main .shopping .tabs-shop > div > dl .shop-contr > p,
+main .shopping .tabs-shop > div > dl .shop-contr > span {
+  border-bottom: 1px solid transparent;
+}
+main .shopping .tabs-shop > div > dl .shop-contr > p:hover,
+main .shopping .tabs-shop > div > dl .shop-contr > span:hover {
+  color: #ff5500;
+  border-bottom-color: #ff5500;
+}
+footer a {
+  text-decoration: none;
+}
+footer .footer-bottom {
+  background-color: white;
+  border: 0;
+}
+footer .footer-bottom .footer-content > p > a {
+  color: black;
+}
+footer .footer-bottom .footer-content > p a:hover {
+  text-decoration: underline;
+}

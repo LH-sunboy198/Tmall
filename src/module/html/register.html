@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/regiter.css">
+    <link rel="stylesheet" href="../../iconfont/font_2850570_lsod847ifb/iconfont.css">
+    <title>用户登录</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="area">
+            <a href=""><img src="https://img.alicdn.com/tfs/TB1_Gn8RXXXXXXqaFXXXXXXXXXX-380-54.png" alt=""></a>
+        </div>
+    </header>
+
+    <div class="banner">
+        <div class="area">
+            <img src="https://gw.alicdn.com/tfs/TB1kcCBSpXXXXarapXXXXXXXXXX-1190-600.png" alt="" class="clear_fix">
+        </div>
+
+
+        <div class="register">
+            <div class="tabs-register">
+                <i class="iconfont">
+                    &#xe73c;
+                </i>
+                <ul class="clearfix">
+                    <li class="choose">密码登录</li>
+                    <li>短信验证</li>
+                    <li class="QR">
+                        <i class="iconfont">
+                            &#xe625;
+                        </i>
+                    </li>
+                </ul>
+                <div class="displayed">
+                    <form action="http://localhost/project/TmallWeb-develop/tianmaoInterface/register/interface/login.php" method="POST">
+                        <div class="user">
+                            <p>
+                                <label for="username">
+                                    <i class="iconfont">&#xe63d;</i>
+                                 </label>
+                            </p>
+                            <input type="text" placeholder="会员名/邮箱/手机号" id="username" name="username">
+                        </div>
+                        <div class="pw">
+                            <p>
+                                <label for="password">
+                                     <i class="iconfont">&#xe8b2;</i>
+                                </label>
+                            </p>
+                            <input type="password" placeholder="请输入登录密码" id="password" name="password">
+                        </div>
+                        <button type="submit" class="btn">登录</button>
+                        <ul class="clearfix">
+                            <li><a href="">忘记密码</a></li>
+                            <li><a href="">忘记用户名</a></li>
+                            <li><a href="./reg.html">免费注册</a></li>
+                        </ul>
+                    </form>
+                </div>
+                <div>
+                    <form action="" method="get">
+                        <div class="user">
+                            <p>
+                                <label for="username">
+                                  <i class="iconfont">&#xe692;</i>
+                                </label>
+                            </p>
+                            <input type="text" placeholder="请输入手机号" id="username">
+                            <span>
+                                <select name="+86" id="" class="select-code">
+                                    <option value="{&quot;areaName&quot;:&quot;中国大陆&quot;,&quot;checkKey&quot;:&quot;^(86){0,1}1\\d{10}$&quot;,&quot;countryCode&quot;:&quot;CN&quot;,&quot;phoneCode&quot;:&quot;86&quot;}">+86 中国大陆</option>
+                                    <option value="{&quot;areaName&quot;:&quot;中国香港&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(852){1}0{0,1}[1,5,6,9,4](?:\\d{7}|\\d{8}|\\d{12})$&quot;,&quot;countryCode&quot;:&quot;HK&quot;,&quot;phoneCode&quot;:&quot;852&quot;}">+852 中国香港</option>
+                                    <option value="{&quot;areaName&quot;:&quot;中国澳门&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(853){1}6\\d{7}$&quot;,&quot;countryCode&quot;:&quot;MO&quot;,&quot;phoneCode&quot;:&quot;853&quot;}">+853 中国澳门</option>
+                                    <option value="{&quot;areaName&quot;:&quot;中国台湾&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(886){1}0{0,1}[6,7,9](?:\\d{7}|\\d{8}|\\d{10})$&quot;,&quot;countryCode&quot;:&quot;TW&quot;,&quot;phoneCode&quot;:&quot;886&quot;}">+886 中国台湾</option>
+                                    <option value="{&quot;areaName&quot;:&quot;韩国&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(82){1}0{0,1}[7,1](?:\\d{8}|\\d{9})$&quot;,&quot;countryCode&quot;:&quot;KR&quot;,&quot;phoneCode&quot;:&quot;82&quot;}">+82 韩国</option>
+                                    <option value="{&quot;areaName&quot;:&quot;日本&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(81){1}0{0,1}[7,8,9](?:\\d{8}|\\d{9})$&quot;,&quot;countryCode&quot;:&quot;JP&quot;,&quot;phoneCode&quot;:&quot;81&quot;}">+81 日本</option>
+                                    <option value="{&quot;areaName&quot;:&quot;美国&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(1){1}\\d{10,12}$&quot;,&quot;countryCode&quot;:&quot;US&quot;,&quot;phoneCode&quot;:&quot;1&quot;}">+1 美国</option>
+                                    <option value="{&quot;areaName&quot;:&quot;加拿大&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(1){1}\\d{10}$&quot;,&quot;countryCode&quot;:&quot;CA&quot;,&quot;phoneCode&quot;:&quot;1&quot;}">+1 加拿大</option>
+                                    <option value="{&quot;areaName&quot;:&quot;英国&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(44){1}[347-9](\\d{8,9}|\\d{11,12})$&quot;,&quot;countryCode&quot;:&quot;GB&quot;,&quot;phoneCode&quot;:&quot;44&quot;}">+44 英国</option>
+                                    <option value="{&quot;areaName&quot;:&quot;澳大利亚&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(61){1}4\\d{8,9}$&quot;,&quot;countryCode&quot;:&quot;AU&quot;,&quot;phoneCode&quot;:&quot;61&quot;}">+61 澳大利亚</option>
+                                    <option value="{&quot;areaName&quot;:&quot;新加坡&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(65){1}[13689]\\d{6,7}$&quot;,&quot;countryCode&quot;:&quot;SG&quot;,&quot;phoneCode&quot;:&quot;65&quot;}">+65 新加坡</option>
+                                    <option value="{&quot;areaName&quot;:&quot;马来西亚&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(60){1}1\\d{8,9}$&quot;,&quot;countryCode&quot;:&quot;MY&quot;,&quot;phoneCode&quot;:&quot;60&quot;}">+60 马来西亚</option>
+                                    <option value="{&quot;areaName&quot;:&quot;泰国&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(66){1}[13456789]\\d{7,8}$&quot;,&quot;countryCode&quot;:&quot;TH&quot;,&quot;phoneCode&quot;:&quot;66&quot;}">+66 泰国</option>
+                                    <option value="{&quot;areaName&quot;:&quot;越南&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(84){1}[1-9]\\d{6,9}$&quot;,&quot;countryCode&quot;:&quot;VN&quot;,&quot;phoneCode&quot;:&quot;84&quot;}">+84 越南</option>
+                                    <option value="{&quot;areaName&quot;:&quot;菲律宾&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(63){1}[24579](\\d{7,9}|\\d{12})$&quot;,&quot;countryCode&quot;:&quot;PH&quot;,&quot;phoneCode&quot;:&quot;63&quot;}">+63 菲律宾</option>
+                                    <option value="{&quot;areaName&quot;:&quot;印度尼西亚&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(62){1}[2-9]\\d{7,11}$&quot;,&quot;countryCode&quot;:&quot;ID&quot;,&quot;phoneCode&quot;:&quot;62&quot;}">+62 印度尼西亚</option>
+                                    <option value="{&quot;areaName&quot;:&quot;德国&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(49){1}1(\\d{5,6}|\\d{9,12})$&quot;,&quot;countryCode&quot;:&quot;DE&quot;,&quot;phoneCode&quot;:&quot;49&quot;}">+49 德国</option>
+                                    <option value="{&quot;areaName&quot;:&quot;意大利&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(39){1}[37]\\d{8,11}$&quot;,&quot;countryCode&quot;:&quot;IT&quot;,&quot;phoneCode&quot;:&quot;39&quot;}">+39 意大利</option>
+                                    <option value="{&quot;areaName&quot;:&quot;法国&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(33){1}(\\d{6}|\\d{8,9})$&quot;,&quot;countryCode&quot;:&quot;FR&quot;,&quot;phoneCode&quot;:&quot;33&quot;}">+33 法国</option>
+                                    <option value="{&quot;areaName&quot;:&quot;俄罗斯&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(7){1}[13489]\\d{9,11}$&quot;,&quot;countryCode&quot;:&quot;RU&quot;,&quot;phoneCode&quot;:&quot;7&quot;}">+7 俄罗斯</option>
+                                    <option value="{&quot;areaName&quot;:&quot;新西兰&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(64){1}[278]\\d{7,9}$&quot;,&quot;countryCode&quot;:&quot;NZ&quot;,&quot;phoneCode&quot;:&quot;64&quot;}">+64 新西兰</option>
+                                    <option value="{&quot;areaName&quot;:&quot;荷兰&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(31){1}6\\d{8}$&quot;,&quot;countryCode&quot;:&quot;NL&quot;,&quot;phoneCode&quot;:&quot;31&quot;}">+31 荷兰</option>
+                                    <option value="{&quot;areaName&quot;:&quot;瑞典&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(46){1}[124-7](\\d{8}|\\d{10}|\\d{12})$&quot;,&quot;countryCode&quot;:&quot;SE&quot;,&quot;phoneCode&quot;:&quot;46&quot;}">+46 瑞典</option>
+                                    <option value="{&quot;areaName&quot;:&quot;乌克兰&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(380){1}[3-79]\\d{8,9}$&quot;,&quot;countryCode&quot;:&quot;UA&quot;,&quot;phoneCode&quot;:&quot;380&quot;}">+380 乌克兰</option>
+                                    <option value="{&quot;areaName&quot;:&quot;阿联酋&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(971){1}\\d{6,12}$&quot;,&quot;countryCode&quot;:&quot;AE&quot;,&quot;phoneCode&quot;:&quot;971&quot;}">+971 阿联酋</option>
+                                    <option value="{&quot;areaName&quot;:&quot;阿根廷&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(54){1}\\d{6,12}$&quot;,&quot;countryCode&quot;:&quot;AR&quot;,&quot;phoneCode&quot;:&quot;54&quot;}">+54 阿根廷</option>
+                                    <option value="{&quot;areaName&quot;:&quot;奥地利&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(43){1}\\d{6,12}$&quot;,&quot;countryCode&quot;:&quot;AT&quot;,&quot;phoneCode&quot;:&quot;43&quot;}">+43 奥地利</option>
+                                    <option value="{&quot;areaName&quot;:&quot;比利时&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(32){1}\\d{6,12}$&quot;,&quot;countryCode&quot;:&quot;BE&quot;,&quot;phoneCode&quot;:&quot;32&quot;}">+32 比利时</option>
+                                    <option value="{&quot;areaName&quot;:&quot;保加利亚&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(359){1}\\d{6,12}$&quot;,&quot;countryCode&quot;:&quot;BG&quot;,&quot;phoneCode&quot;:&quot;359&quot;}">+359 保加利亚</option>
+                                    <option value="{&quot;areaName&quot;:&quot;巴西&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(55){1}\\d{6,12}$&quot;,&quot;countryCode&quot;:&quot;BR&quot;,&quot;phoneCode&quot;:&quot;55&quot;}">+55 巴西</option>
+                                    <option value="{&quot;areaName&quot;:&quot;巴哈马&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(1242){1}\\d{6,12}$&quot;,&quot;countryCode&quot;:&quot;BS&quot;,&quot;phoneCode&quot;:&quot;1242&quot;}">+1242 巴哈马</option>
+                                    <option value="{&quot;areaName&quot;:&quot;白俄罗斯&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(375){1}\\d{6,12}$&quot;,&quot;countryCode&quot;:&quot;BY&quot;,&quot;phoneCode&quot;:&quot;375&quot;}">+375 白俄罗斯</option>
+                                    <option value="{&quot;areaName&quot;:&quot;伯利兹&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(501){1}\\d{6,12}$&quot;,&quot;countryCode&quot;:&quot;BZ&quot;,&quot;phoneCode&quot;:&quot;501&quot;}">+501 伯利兹</option>
+                                    <option value="{&quot;areaName&quot;:&quot;瑞士&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(41){1}\\d{6,12}$&quot;,&quot;countryCode&quot;:&quot;CH&quot;,&quot;phoneCode&quot;:&quot;41&quot;}">+41 瑞士</option>
+                                    <option value="{&quot;areaName&quot;:&quot;智利&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(56){1}\\d{6,12}$&quot;,&quot;countryCode&quot;:&quot;CL&quot;,&quot;phoneCode&quot;:&quot;56&quot;}">+56 智利</option>
+                                    <option value="{&quot;areaName&quot;:&quot;哥伦比亚&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(57){1}\\d{6,12}$&quot;,&quot;countryCode&quot;:&quot;CO&quot;,&quot;phoneCode&quot;:&quot;57&quot;}">+57 哥伦比亚</option>
+                                    <option value="{&quot;areaName&quot;:&quot;丹麦&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(45){1}\\d{6,12}$&quot;,&quot;countryCode&quot;:&quot;DK&quot;,&quot;phoneCode&quot;:&quot;45&quot;}">+45 丹麦</option>
+                                    <option value="{&quot;areaName&quot;:&quot;爱沙尼亚&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(372){1}\\d{6,12}$&quot;,&quot;countryCode&quot;:&quot;EE&quot;,&quot;phoneCode&quot;:&quot;372&quot;}">+372 爱沙尼亚</option>
+                                    <option value="{&quot;areaName&quot;:&quot;埃及&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(20){1}\\d{6,12}$&quot;,&quot;countryCode&quot;:&quot;EG&quot;,&quot;phoneCode&quot;:&quot;20&quot;}">+20 埃及</option>
+                                    <option value="{&quot;areaName&quot;:&quot;西班牙&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(34){1}\\d{6,12}$&quot;,&quot;countryCode&quot;:&quot;ES&quot;,&quot;phoneCode&quot;:&quot;34&quot;}">+34 西班牙</option>
+                                    <option value="{&quot;areaName&quot;:&quot;芬兰&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(358){1}\\d{6,12}$&quot;,&quot;countryCode&quot;:&quot;FI&quot;,&quot;phoneCode&quot;:&quot;358&quot;}">+358 芬兰</option>
+                                    <option value="{&quot;areaName&quot;:&quot;匈牙利&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(36){1}\\d{6,12}$&quot;,&quot;countryCode&quot;:&quot;HU&quot;,&quot;phoneCode&quot;:&quot;36&quot;}">+36 匈牙利</option>
+                                    <option value="{&quot;areaName&quot;:&quot;波斯尼亚和黑塞哥维那&quot;,&quot;checkKey&quot;:&quot;^(00){0,1}(387){1}\\d{6,15}$&quot;,&quot;countryCode&quot;:&quot;BA&quot;,&quot;phoneCode&quot;:&quot;387&quot;}">+387 波斯尼亚和黑塞哥维那</option>
+                                </select>
+                            </span>
+
+                        </div>
+                        <div class="pw">
+                            <p>
+                                <label for="password">
+                                    <i class="iconfont">&#xe631;
+                                    </i>
+                                </label>
+                            </p>
+                            <input type="password" placeholder="请输入验证码" id="password">
+                            <b>获取验证码</b>
+                        </div>
+                        <button type="submit">登录</button>
+                        <ul class="clearfix">
+                            <li><a href="./reg.html">免费注册</a></li>
+                        </ul>
+                    </form>
+                </div>
+                <div>
+                    <i class="iconfont">&#xe6bf;
+                    </i>
+                    <div class="scan-QR">
+                        <h3>手机扫码，安全登录</h3>
+                        <img src="../../images/QR.png" alt="">
+                        <div class="clearfix">
+                            <i class="iconfont">&#xe626;</i>
+                            <p class="open clearfix">
+                                <span>打开</span>
+                                <a href="">淘宝app |</a>
+                                <a href="">天猫app</a>
+                                <span>扫一扫登录</span>
+                            </p>
+                            <ul class="clearfix">
+                                <li><a href="">密码登录</a></li>
+                                <li><a href="./reg.html">免费注册</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="area">
+            <div class="footer-bottom ">
+                <div class="footer-content center-block">
+                    <p class="tmall-about">
+                        <a href="">关于天猫</a>
+                        <a href="">商家服务大厅</a>
+                        <a href="">开放平台</a>
+                        <a href="">诚聘英才</a>
+                        <a href="">联系我们</a>
+                        <a href="">网站合作</a>
+                        <a href="">法律声明</a>
+                        <a href="">隐私权政策</a>
+                        <a href="">知识产权</a>
+                        <a href="">廉正举报</a>
+                        <a href="">规则意见征集</a>
+                        <a href="">不当竞争举报</a>
+                    </p>
+                    <p class="tmall-link">
+                        <a href="">阿里巴巴集团</a>|
+                        <a href="">淘宝网</a>|
+                        <a href="./index.html">天猫</a>|
+                        <a href="">聚划算</a>|
+                        <a href="">全球速卖通</a>|
+                        <a href="">阿里巴巴国际交易市场</a>|
+                        <a href="">1688</a>|
+                        <a href="">阿里妈妈</a>|
+                        <a href="">飞猪</a>|
+                        <a href="">阿里云计算</a>|
+                        <a href="">AliOS</a>|
+                        <a href="">阿里通信</a>|
+                        <a href="">万网</a>|
+                        <a href="">高德</a>|
+                        <a href="">UC</a>|
+                        <a href="">友盟</a>|
+                        <a href="">虾米</a>|
+                        <a href="">钉钉</a>|
+                        <a href="">支付宝</a>|
+                        <a href="">阿里安全</a>
+                    </p>
+                    <div class="relation">
+                        <a href="">增值电信业务经营许可证：浙B2-20110446</a>
+                        <span>市场名称登记证：工商网市字3301004119号</span>
+                        <span>出版物网络交易平台服务经营备案证： 新出发浙备字第2019002号</span><br>
+                        <span>互联网违法和不良信息举报电话：0571-81683755 blxxjb@alibaba-inc.com</span> 互联网药品信息服务资质证书编号：
+                        <a href="">浙-（经营性）-2017-0005</a>
+                        <a href="">
+                            <img src="https://img.alicdn.com/tps/TB1yEqRPXXXXXXPXpXXXXXXXXXX-20-20.png" alt=""> 浙公网安备 33010002000120号
+                        </a><br>
+                        <span>医疗器械网络交易服务第三方平台备案：（浙）网械平台备字[2018]第00002号</span><br>
+                        <span>浙江省网络食品销售第三方平台提供者备案：浙网食A33010002</span>
+                        <a href="">12318举报</a>
+                        <a href="">浙B2-20110446-1</a><br>
+                        <b>© 2003-现在 TMALL.COM 版权所有</b><br>
+                        <p class="footer-icon-logo">
+                            <a href=""><img src="https://img.alicdn.com/tfs/TB1MQX3cBr0gK0jSZFnXXbRRXXa-65-70.gif" alt=""></a>
+                            <a href="">
+                                <img src="https://img.alicdn.com/tps/i1/TB13mgzHXXXXXbjXVXXzby4IVXX-80-30.jpg" alt="">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="../js/register.js" type="module"></script>
+
+</html>

@@ -1,0 +1,386 @@
+footer .footer-top {
+  padding-top: 22px;
+  width: 1190px;
+  background: url(https://img.alicdn.com/tfs/TB1dl28RXXXXXbzaFXXXXXXXXXX-136-50.png) 52px 100% no-repeat;
+  background-size: 60px;
+  border-top: 1px solid #ededed;
+}
+footer .footer-top .footer-list {
+  padding-left: 52px;
+}
+footer .footer-top .footer-list > dt {
+  width: 186px;
+  color: #646464;
+  line-height: 30px;
+}
+footer .footer-top .footer-list > dd {
+  width: 186px;
+  height: 20px;
+}
+footer .footer-top .footer-list > dd > a {
+  font-size: 12px;
+  color: #8b8b8b;
+}
+footer .footer-top .footer-list > dd > a > img {
+  width: 105px;
+}
+footer .footer-bottom {
+  border-top: 1px solid red;
+  background-color: #000000;
+  padding-bottom: 20px;
+}
+footer .footer-bottom .footer-content {
+  width: 1190px;
+}
+footer .footer-bottom .footer-content > p {
+  margin: 0;
+}
+footer .footer-bottom .footer-content a {
+  color: white;
+  line-height: 25px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+footer .footer-bottom .footer-content .tmall-about {
+  padding: 5px 0;
+}
+footer .footer-bottom .footer-content .tmall-link {
+  padding: 5px 0;
+  font-size: 12px;
+  color: white;
+}
+footer .footer-bottom .footer-content .relation {
+  color: #a4a4a4;
+  font-size: 12px;
+}
+footer .footer-bottom .footer-content .relation a,
+footer .footer-bottom .footer-content .relation span {
+  color: #a4a4a4;
+  font-size: 12px;
+  margin-right: 65px;
+}
+footer .footer-bottom .footer-content .relation a > img,
+footer .footer-bottom .footer-content .relation span > img {
+  display: inline-block;
+}
+footer .footer-bottom .footer-content .relation b {
+  font-weight: 400;
+  color: #686868;
+}
+footer .footer-bottom .footer-content .relation p {
+  padding: 10px 0 5px 0;
+  margin: 0;
+}
+footer .footer-bottom .footer-content .relation p > a {
+  margin-right: 5px;
+}
+footer .footer-bottom .footer-content .relation p > a img {
+  height: 30px;
+  display: inline-block;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 16px;
+  font-family: '微软雅黑';
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 16px;
+  font-weight: normal;
+}
+b,
+strong {
+  font-weight: normal;
+}
+i,
+em {
+  font-style: normal;
+}
+a,
+u,
+del,
+ins {
+  text-decoration: none;
+}
+img {
+  border: 0;
+  display: block;
+}
+input,
+fieldset {
+  outline: none;
+  border: 0;
+}
+.clearfix:after {
+  content: '.';
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  display: block;
+  visibility: hidden;
+}
+.clear_fix {
+  zoom: 1;
+}
+a:hover {
+  text-decoration: none;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+html body .register .tabs-register .displayed {
+  display: block;
+}
+html body .register .tabs-register .choose {
+  border-bottom: 2px solid black;
+}
+.area {
+  width: 1190px;
+  margin: 0 auto;
+}
+header {
+  height: 44px;
+  padding: 22px 0;
+}
+header a > img {
+  width: 190px;
+  margin-top: 8px;
+}
+.banner {
+  background-color: #dd2726;
+  margin-bottom: 50px;
+  position: relative;
+}
+.banner .register {
+  width: 350px;
+  height: 404px;
+  position: absolute;
+  top: 92px;
+  right: 230px;
+  background-color: white;
+}
+.banner .register .iconfont {
+  user-select: none;
+}
+.banner .register .tabs-register {
+  width: 300px;
+  padding: 25px;
+  position: relative;
+}
+.banner .register .tabs-register > .iconfont {
+  font-size: 25px;
+  position: absolute;
+  color: #ff9e00;
+  top: 10px;
+  right: 50px;
+}
+.banner .register .tabs-register > ul li {
+  font-weight: 600;
+  height: 18px;
+  line-height: 18px;
+  padding-bottom: 8px;
+  margin: 9px 10px 0 0;
+  cursor: pointer;
+  color: #3c3c3c;
+  float: left;
+}
+.banner .register .tabs-register > ul li:last-child {
+  position: absolute;
+  right: -7px;
+  top: 11px;
+}
+.banner .register .tabs-register > ul li:last-child > .iconfont {
+  font-size: 50px;
+  color: #ff0036;
+}
+.banner .register .tabs-register > div {
+  position: absolute;
+  left: 25px;
+  top: 60px;
+  display: none;
+}
+.banner .register .tabs-register > div form {
+  margin-top: 20px;
+  height: 200px;
+}
+.banner .register .tabs-register > div form > div {
+  margin-bottom: 20px;
+  position: relative;
+}
+.banner .register .tabs-register > div form > div > p {
+  width: 40px;
+  height: 42px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #cccccc;
+  position: absolute;
+  top: 1px;
+  left: 0.5px;
+}
+.banner .register .tabs-register > div form > div > p i {
+  font-size: 24px;
+  line-height: 40px;
+}
+.banner .register .tabs-register > div form > div > input {
+  display: inline-block;
+  height: 42px;
+  width: 248px;
+  padding-left: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid #ccc;
+}
+.banner .register .tabs-register > div form > div > input:hover {
+  border-color: red;
+}
+.banner .register .tabs-register > div form > div > input:focus {
+  border-color: red;
+}
+.banner .register .tabs-register > div form > div > span {
+  position: absolute;
+  height: 95%;
+  top: 1px;
+  left: 40px;
+}
+.banner .register .tabs-register > div form > div > span .select-code {
+  width: 56px;
+  height: 100%;
+  outline: none;
+  border: 0;
+  padding: 0 20px 0 10px;
+  appearance: none;
+  background: url(https://gw.alicdn.com/tfs/TB1.8ugw.T1gK0jSZFrXXcNCXXa-200-200.png) 40px 8.5px no-repeat;
+  cursor: pointer;
+  background-size: 24px;
+}
+.banner .register .tabs-register > div form > div > span .select-code > option {
+  color: #3c3c3c;
+}
+.banner .register .tabs-register > div form button {
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 16px;
+  height: 40px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  background-color: #ff0036;
+}
+.banner .register .tabs-register > div form > ul {
+  float: right;
+}
+.banner .register .tabs-register > div form > ul li {
+  float: left;
+}
+.banner .register .tabs-register > div form > ul li > a {
+  font-size: 12px;
+  color: #6c6c6c;
+  margin-left: 10px;
+}
+.banner .register .tabs-register > div:nth-of-type(2) .user > input {
+  width: 186px;
+  padding: 0 1px 0 110px;
+}
+.banner .register .tabs-register > div:nth-of-type(2) .pw > b {
+  position: absolute;
+  font-size: 12px;
+  width: 70px;
+  color: #6c6c6c;
+  top: 14px;
+  right: -2px;
+  cursor: pointer;
+}
+.banner .register .tabs-register > div:last-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 350px;
+  height: 404px;
+  background-color: white;
+}
+.banner .register .tabs-register > div:last-child > .iconfont {
+  position: absolute;
+  top: -1px;
+  right: 0;
+  font-size: 50px;
+  color: #ff0036;
+  cursor: pointer;
+}
+.banner .register .tabs-register > div:last-child .scan-QR {
+  width: 300px;
+  height: 305px;
+  padding: 25px 25px 23px;
+}
+.banner .register .tabs-register > div:last-child .scan-QR > h3 {
+  font-weight: 600;
+  color: #3c3c3c;
+}
+.banner .register .tabs-register > div:last-child .scan-QR > img {
+  display: block;
+  width: 130px;
+  margin: 50px auto;
+  margin-bottom: 20px;
+}
+.banner .register .tabs-register > div:last-child .scan-QR > div i,
+.banner .register .tabs-register > div:last-child .scan-QR > div p {
+  float: left;
+}
+.banner .register .tabs-register > div:last-child .scan-QR > div .open {
+  width: 145px;
+  font-size: 12px;
+  margin: 0 auto;
+}
+.banner .register .tabs-register > div:last-child .scan-QR > div .open span,
+.banner .register .tabs-register > div:last-child .scan-QR > div .open a {
+  float: left;
+  color: #6c6c6c;
+  margin-right: 3px;
+}
+.banner .register .tabs-register > div:last-child .scan-QR > div .open > a {
+  color: #ff0036;
+}
+.banner .register .tabs-register > div:last-child .scan-QR > div .iconfont {
+  font-size: 35px;
+  color: #ff0036;
+  margin: 0 10px;
+  margin-left: 75px;
+}
+.banner .register .tabs-register > div:last-child .scan-QR > div > ul {
+  float: right;
+}
+.banner .register .tabs-register > div:last-child .scan-QR > div > ul li {
+  float: left;
+}
+.banner .register .tabs-register > div:last-child .scan-QR > div > ul li > a {
+  font-size: 12px;
+  color: #6c6c6c;
+  margin-left: 10px;
+}
+footer a {
+  text-decoration: none;
+}
+footer .footer-bottom {
+  background-color: white;
+  border: 0;
+}
+footer .footer-bottom .footer-content > p > a {
+  color: black;
+}
+footer .footer-bottom .footer-content > p a:hover {
+  text-decoration: underline;
+}
